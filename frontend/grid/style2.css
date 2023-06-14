@@ -1,0 +1,64 @@
+.grid_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  justify-items: stretch;
+  grid-template-areas:
+    ". item-A item-A ."
+    ". item-B item-C ."
+    ". . . .";
+
+  row-gap: 10px;
+  background-color: plum;
+}
+
+* {
+  box-sizing: border-box;
+}
+#item-A {
+  background-color: lightgreen;
+  text-align: center;
+  line-height: 20vh;
+  border-radius: 5px;
+  grid-area: item-A;
+}
+
+#item-B {
+  background-color: rgb(244, 179, 59);
+  text-align: center;
+  line-height: 20vh;
+  border-radius: 5px;
+  grid-area: item-B;
+  margin-right: 10px;
+}
+
+#item-C {
+  background-color: rgb(244, 179, 59);
+  text-align: center;
+  line-height: 20vh;
+  border-radius: 5px;
+  grid-area: item-C;
+  margin-left: 10px;
+}
+
+@media all and (max-width: 740px) {
+  .grid_container {
+    grid-template-columns: 1fr, 1fr;
+    grid-template-areas:
+      " item-B item-C "
+      " item-A item-A ";
+  }
+}
+
+@media all and (max-width: 375px) {
+  .grid_container {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "item-B "
+      "item-A"
+      "item-C";
+  }
+  #item-A {
+    padding: 50px;
+  }
+}

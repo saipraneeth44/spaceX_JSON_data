@@ -1,0 +1,189 @@
+/* body {
+  background-color: #f0e68c;
+  font-size: 20px;
+}
+
+#title {
+  color: white;
+  padding-left: 15px;
+  margin-top: 20px;
+}
+
+#logo {
+  padding-left: 10cm;
+}
+
+.header {
+  background-color: black;
+  height: fit-content;
+  display: flex;
+}
+
+.home_slider ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(86, 82, 82);
+}
+
+.home_slider li {
+  float: left;
+}
+
+.home_slider li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.home_slider li a:hover {
+  background-color: #333;
+}
+
+.video {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.video h2 {
+  text-decoration-line: underline;
+}
+
+.embedimage {
+  padding-bottom: 10px;
+}
+
+.embedimage h1 {
+  color: black;
+  font-style: oblique;
+  text-align: center;
+  text-decoration-line: underline;
+}
+
+#image1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.student_table {
+  margin-bottom: 25px;
+}
+.student_table h2 {
+  text-align: center;
+  font-style: inherit;
+  text-decoration-line: underline;
+}
+
+#TableHeading {
+  font-size: larger;
+  font-weight: bolder;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+table {
+  width: 800px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  text-align: center;
+}
+td {
+  text-align: center;
+}
+
+table,
+th,
+td {
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+.curriculum {
+  text-align: center;
+  text-decoration-line: underline;
+}
+
+.list_curriculum {
+  display: inline-block;
+  text-align: left;
+}
+
+.contactform h2 {
+  text-align: center;
+  text-decoration-line: underline;
+}
+
+.contact_form {
+  text-align: center;
+
+  margin-top: -10px;
+}
+
+input[type="text"],
+textarea {
+  width: 18%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  background-color: #333b38;
+  border-radius: 3px;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: solid;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+label {
+  font: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 5cm;
+} */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.c1,
+.c2,
+.c3 {
+  height: 100px;
+  width: 80%;
+  border: 1px solid grey;
+  margin: 20px;
+  padding: 20px;
+  margin: 10px;
+  width: 50%;
+}
+
+.c1 {
+  background-color: red;
+}
+
+.c2 {
+  background-color: blue;
+}
+
+.c3 {
+  background-color: yellow;
+}
+
+/* @media only screen and (max-width: 500px) {
+  .container {
+    flex-direction: column;
+  }
+} */

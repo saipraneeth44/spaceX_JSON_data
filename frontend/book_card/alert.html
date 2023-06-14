@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alert_Test</title>
+  </head>
+  <body>
+    <label id="username">Username:</label>
+    <input
+      type="text"
+      id="username"
+      name="username"
+      placeholder="Enter Name..."
+      ;
+    />
+    <button id="submit_btn" onclick="checkFunction()" type="Submit">
+      Submit
+    </button>
+  </body>
+
+  <script>
+    function checkFunction() {
+      var name = document.getElementById("username").value;
+      if (name === "" || name === null) {
+        alert("Please enter the input..");
+      }
+    }
+  </script>
+</html>

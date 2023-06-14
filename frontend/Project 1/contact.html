@@ -1,0 +1,169 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Wynisco</title>
+  </head>
+  <body>
+    <h1>This is Contact page for HTML</h1>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Sai Praneeth" />
+    <meta name="keywords" content="Wynisco, React Bootcamp" />
+    <meta name="description" content=" front end react bootcamp" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wynisco</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <section class="header">
+          <figure>
+            <img
+              id="logo"
+              src="./assets/logo.png"
+              alt="Wynisco Logo"
+              width="100"
+              height="100"
+            />
+          </figure>
+          <div id="title">
+            <h1>Welcome to Wynisco BootCamp</h1>
+          </div>
+        </section>
+      </header>
+
+      <nav class="home_slider">
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About </a></li>
+          <li><a href="about.html">Services </a></li>
+          <li><a href="about.html">Careers</a></li>
+          <li><a href="about.html">More + </a></li>
+        </ul>
+      </nav>
+
+      <section class="video">
+        <h2>Orientation Video</h2>
+        <iframe
+          width="700"
+          height="400"
+          src="https://www.youtube.com/embed/gDbQeYRpL6s"
+        ></iframe>
+      </section>
+      <hr />
+
+      <section class="embedimage">
+        <h1>The Embedded Image</h1>
+        <figure>
+          <img
+            id="image1"
+            src="./assets/htmlimage.jpg"
+            alt="Boy taking photograph"
+            width="700"
+            height="400"
+          />
+        </figure>
+      </section>
+      <hr />
+
+      <section class="student_table">
+        <span><h2>Students Projects</h2></span>
+        <table class="center">
+          <tr>
+            <th>Name</th>
+            <th>Email Address</th>
+            <th>Phone Number</th>
+            <th>Netlify Project Link</th>
+          </tr>
+          <tr>
+            <td title="sachin@wynisco.com">Sachin Rajgire</td>
+            <td>sachin@wynisco.com</td>
+            <td>7328740188</td>
+            <td>https://reaction-sachin-rajgire.netlify.app/</td>
+          </tr>
+          <tr>
+            <td title="daave@gmail.com">Dave Mathew</td>
+            <td>daave@gmail.com</td>
+            <td>88483993993</td>
+            <td>http://dave.com</td>
+          </tr>
+          <tr>
+            <td title="arushi.gupta@yahoo.in">Arushi Gupta</td>
+            <td>arushi.gupta@yahoo.in</td>
+            <td>8178904710</td>
+            <td>https://reaction-arushi-gupta.netlify.app/#/</td>
+          </tr>
+        </table>
+      </section>
+      <hr />
+
+      <section class="curriculum">
+        <h2>Course Curriculum</h2>
+        <ul class="list_curriculum">
+          <li>Using Git as version control</li>
+          <ul>
+            <li>How to clone and checkout code from a repository.</li>
+            <li>How to branch from master</li>
+            <li>Committing code back to master using merge or rebase</li>
+          </ul>
+          <li>Setting up Node Package Manager ( NPM)</li>
+          <ul>
+            <li>CLI Commands</li>
+            <li>Downloading Node 14.15.4 LTS</li>
+            <li>Package.json</li>
+          </ul>
+          <li>Setting VSCode and its extension</li>
+        </ul>
+      </section>
+      <hr />
+
+      <section class="contactform">
+        <h2>Contact Form</h2>
+        <form class="contact_form">
+          <div class="fname_field">
+            <label for="fname">First Name:</label><br />
+            <input
+              type="text"
+              id="fname"
+              name="first_name"
+              placeholder="Enter your first name"
+            /><br />
+          </div>
+          <div class="lname_field">
+            <label for="lname">Last Name:</label><br />
+            <input
+              type="text"
+              id="lname"
+              name="last_name"
+              placeholder="Enter your last Name"
+            /><br />
+          </div>
+          <div class="message_field">
+            <label for="message" value="message">Message:</label><br />
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Enter message..."
+            ></textarea
+            ><br />
+          </div>
+          <div>
+            <button type="submit" value="Submit">Submit</button>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

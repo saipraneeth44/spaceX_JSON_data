@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.main_layer {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+}
+
+.outer_layer {
+  height: 500px;
+  width: 500px;
+  border: 1px solid red;
+  background-color: violet;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  background-position: center;
+}
+
+.sec_layer {
+  height: 300px;
+  width: 300px;
+  border: 1px solid red;
+  background-color: lightgreen;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0;
+  right: 0px;
+  margin: auto;
+}
+
+.inner_layer {
+  height: 150px;
+  width: 150px;
+  border: 1px solid red;
+  background-color: lightyellow;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
